@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.link
+{
+    list-style: none;
+    display: flex;  
+    padding: 30px 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 1px solid #EBEBEB; 
+}
+.link>li
+{
+    padding: 5px 5px;
+}
+.link>li>a
+{
+    text-decoration: none;
+    color: black;
+}
+/* link */
+.title
+{
+    padding: 10px 20px 0 0;
+    border-bottom: 2px solid #EBEBEB; 
+    margin-left: 150px;
+    height: 50px;
+    margin-right: 150px;
+}
+.cart
+{
+    height: fit-content;
+}
+.khoi
+{
+    background-color: white;
+    margin-top: 20px;
+    width: fit-content;
+}
+h2{font-family: 'Gotham_bold', cursive;
+color: #636262;
+}
+h4{font-family: 'Gotham_bold', cursive;
+    
+    }
+.ten_cot{
+    border-bottom: 2px solid #EBEBEB; 
+    display: flex;
+}
+.sanpham
+{
+    width: 600px;
+    padding: 40px 0 10px 0px;
+}
+.dongia
+{
+    width: 300px;
+    padding: 40px 0 10px 0px;
+}
+.soluong
+{
+    width: 400px;
+    padding: 25px 0 10px 0px;
+}
+.thanhtien
+{
+    width: 200px;
+    padding: 25px 0 10px 0px;
+}
+.thongtinsp
+{
+    width: 550px;
+    padding: 10px 0;
+    display: flex;
+}
+.thongtinsp a{
+    color: #898989;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+.thongtinsp a:hover{
+    color: #9BD031;
+}
+.xoa
+{
+    display: flex;
+    flex-direction: column  ;
+
+}
+ion-icon
+{
+    font-size: 20px;
+}
+.section
+{
+    display: flex;
+}
+.dongiasp
+{
+    width: 240px;
+    
+    
+}
+.dongiasp p
+{
+    font-family: 'Gotham_bold', cursive;
+    color:#DE4343 ;
+    line-height: 120px;
+    font-weight: bold;
+}
+.tong p{
+    font-family: 'Gotham_bold', cursive;
+    color:#DE4343 ;
+    line-height: 120px;
+    font-weight: bold;
+}
+.soluong
+{  width: 400px;
+
+}
+.nutmua button
+{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+}
+.nutmua input
+{
+    width: 40px;
+    height: 40px;
+    margin: 0 -5px;
+    padding-left: 12px;
+}
+.group-form
+{
+    margin-top: 10px;
+}
+.dulieu
+{
+    display: flex;
+}
+.nutmua
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.nutmua>button{
+    width: 230px;
+    background-color: #9BD031;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #9BD031;
+}
+.tong
+{
+    width: 170px;
+}

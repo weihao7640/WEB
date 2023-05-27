@@ -7,7 +7,7 @@
 		<img src="image/logo.webp" alt="">
 	</div>
 	<ul class="duoi">
-		<li><a href="">Trang Chủ</a></li>
+		<li><a href="home">Trang Chủ</a></li>
 		<li><a href="">Giới thiệu</a></li>
 		<li><a href=""> Sản phẩm</a>
 			<ul class="subnav">
@@ -31,6 +31,6 @@
 			</c:if>
 				
 			</ul></li>
-		<li><a href=""><ion-icon name="cart"></ion-icon></a></li>
+		<li><a href="viewGH"><ion-icon name="cart"></ion-icon></a></li>
 	</ul>
 </div>

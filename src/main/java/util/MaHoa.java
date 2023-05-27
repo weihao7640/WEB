@@ -4,6 +4,8 @@ import java.security.MessageDigest;
 import org.apache.tomcat.util.codec.binary.Base64;
 
 
+
+
 public class MaHoa {
 	// md5
 	// sha-1 => thường được sử dụng

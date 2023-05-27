@@ -18,8 +18,8 @@
 <body>
 <jsp:include page="/common/header.jsp"></jsp:include>
     <ul class="link">
-        <li><a href="">Trang Chủ ></a></li>
-        <li><a href="">Đăng ký</a></li>
+        <li><a href="home">Trang Chủ ></a></li>
+        <li><a href="">Đăng nhập</a></li>
 
     </ul>
     <div class="row justify-content-lg-center">
@@ -48,7 +48,7 @@
         </div>
         <div class="d-grid gap-2">
             <button class="btn btn-success" style="margin-top: 20px;" type="submit">Đăng Nhập</button>
-            <p>  Bạn chưa có tài khoản? Đăng ký <a href="">tại đây</a></p>
+            <p>  Bạn chưa có tài khoản? Đăng ký <a href="dangky">tại đây</a></p>
           </div>
     
       </form>

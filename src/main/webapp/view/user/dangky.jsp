@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Fesh food.vn</title>
 <link rel="stylesheet" href="css/3.css">
 <script type="module"
 	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -27,7 +27,7 @@
 <body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
 	<ul class="link">
-		<li><a href="">Trang Chủ ></a></li>
+		<li><a href="home">Trang Chủ ></a></li>
 		<li><a href="">Đăng ký</a></li>
 
 	</ul>
@@ -47,7 +47,7 @@
 							id="exampleInputEmail1" placeholder="Nhập Họ và tên"
 							class="form-control form-control-lg"
 							data-validation-error-msg="Email sai định dạng" value=""
-							name="email" id="email" required="">
+							 id="email" required="">
 					</div>
 				</div>
 				<div class="col-md-12" style="margin-top: 20px;">
@@ -58,7 +58,7 @@
 							name="sdt" class="form-control form-control-lg"
 							data-validation="email"
 							data-validation-error-msg="Email sai định dạng" value=""
-							name="email" id="email" required="">
+							 id="email" required="">
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -84,7 +84,7 @@
 					<button class="btn btn-success" style="margin-top: 20px;"
 						type="submit">Tạo tài khoản</button>
 					<p>
-						Bạn đã có tài khoản? Đăng nhập <a href="">tại đây</a>
+						Bạn đã có tài khoản? Đăng nhập <a href="login">tại đây</a>
 					</p>
 				</div>
 

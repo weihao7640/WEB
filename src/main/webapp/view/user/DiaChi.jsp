@@ -65,11 +65,14 @@
 				</p>
 			</div>
 			<ul class="noidung1_1">
-				<li><a class="noidungInfo" href="ChiTietND">Thông tin tài
+				<li><a class="noidungInfo_active" href="ChiTietND">Thông tin tài
 						khoản</a></li>
+				<li><a class="noidungInfo_active" href="listFollow">Đang theo dõi</a></li>
 				<li><a class="noidungInfo" href="Donhang">Đơn hàng của bạn</a></li>
 				<li><a class="noidungInfo" href="DoiMK">Đổi mật khẩu</a></li>
-				<li><a class="noidungInfo_active" href="">Số địa chỉ(0)</a></li>
+				<li><a class="noidungInfo" href="Diachi">Số địa chỉ(0)</a></li>
+				<li><a class="noidungInfo" href="kennguoiban">Kênh người
+						bán</a></li>
 				<li><a class="noidungInfo" href="dangxuat">Đăng xuất</a></li>
 			</ul>
 		</div>
