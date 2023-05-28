@@ -16,7 +16,7 @@ public class MaHoa {
 		str = str + salt;
 		try {
 			byte[] dataBytes = str.getBytes("UTF-8");
-			MessageDigest md = MessageDigest.getInstance("SHA-1");
+			MessageDigest md = MessageDigest.getInstance("SHA-256");
 			result = Base64.encodeBase64String(md.digest(dataBytes));
 		} catch (Exception e) {
 			e.printStackTrace();
