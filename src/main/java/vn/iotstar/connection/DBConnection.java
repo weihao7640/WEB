@@ -9,7 +9,7 @@ public class DBConnection {
 	private final String portNumber = "1433";
 	private final String instance = "";
 	private final String userID = "sa";
-	private final String password = "123456@a";
+	private final String password = "";
 
 	public Connection getConnection() throws Exception {
 		String url = "jdbc:sqlserver://" + serverName + ":" + portNumber + "\\" + instance + ";databaseName=" + dbName;
@@ -27,7 +27,7 @@ public class DBConnection {
 	private String getPasswordFromConfig() {
         	// Implement logic to retrieve the password from a configuration file or environment variable
         	// Return the password securely
-        	return "your_password_here";
+        	return "123456@a";
     	}
 	
 	public static void main(String[] args) {
