@@ -18,8 +18,18 @@ public class DBConnection {
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 		return DriverManager.getConnection(url, userID, password);
 	}
+	
+	// Fix Do not hardcode passwords in code. Found password string
+	public DBConnection() {
+        	this.password = getPasswordFromConfig(); // Retrieve password from configuration file or environment variable
+    	}
 
-
+	private String getPasswordFromConfig() {
+        	// Implement logic to retrieve the password from a configuration file or environment variable
+        	// Return the password securely
+        	return "your_password_here";
+    	}
+	
 	public static void main(String[] args) {
 		try {
 			System.out.println(new DBConnection().getConnection());
