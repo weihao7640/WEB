@@ -16,6 +16,7 @@ public class DBConnection {
 		if (instance == null || instance.trim().isEmpty())
 			url = "jdbc:sqlserver://" + serverName + ":" + portNumber + ";databaseName=" + dbName;
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		this.DBConnection();
 		return DriverManager.getConnection(url, userID, password);
 	}
 	
