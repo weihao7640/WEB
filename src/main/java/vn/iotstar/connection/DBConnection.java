@@ -7,12 +7,8 @@ import java.util.Properties;
 
 public class DBConnection {
 	/*
-	 * private final String serverName = "DuyHao"; private final String dbName =
-	 * "SHOPFRUIT"; private final String portNumber = "1433"; private final String
-	 * instance = ""; private final String userID = "sa"; private final String
-	 * password = "12345678";
 	 */
-	private final String configFile = "config.properties";
+	private final String configFile = "C:\\Users\\HP\\eclipse-workspace\\WEB\\src\\main\\java\\vn\\iotstar\\connection\\config.properties";
 
 	public Connection getConnection() throws Exception {
 		
